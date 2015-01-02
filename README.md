@@ -15,3 +15,8 @@ make clean         clean temp compilers files
 make clean-all     clean all compilers files - includes project    
 make clean-outp    clean output project files
 ```
+
+## Contact and credits
+                             
+**Author:**    Radim Loskot  
+**gmail.com:** radim.loskot (e-mail)
