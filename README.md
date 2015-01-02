@@ -1,4 +1,4 @@
-Simple Rootkit
+Simple Linux Kernel Rootkit
 ==============
 
 Simple rootkit that opens TCP port for listening and hides itself from the process list (eg. from top, ps and others). Hiding is accomplished via two different ways. For both of them is used of the kernel module. First way modifies getdents system call. The second way cleans virtual file /proc/$PID/cmdline inside memory and that causes that process is not visible anymore.
